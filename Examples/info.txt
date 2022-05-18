@@ -1,0 +1,33 @@
+---
+
+"automaton_*.txt"
+
+Prima riga: quattro interi separati da spazi.
+- Primo: numero degli stati (n)
+- Secondo: numero delle transizioni (m)
+- Terzo: stato iniziale (s)
+- Quarto: numero di stati finali (nfs)
+Successive nfs righe: stati finali, uno per riga.
+Successive m righe: transizioni, una per riga. Ciascuna transizione è nella forma di due interi e un carattere separati da spazi (la transizione va dal primo stato al secondo con un arco etichettato con il carattere).
+
+Alla fine di ogni riga del file deve essere inserito uno spazio per la corretta esecuzione del programma.
+
+Gli esempi devono rispettare le seguenti supposizioni:
+- Si assume che l'automa sia deterministico;
+- Si assume che tutti gli archi entranti nello stesso stato abbiano la stessa etichetta;
+- Si assume che tutti gli stati siano raggiungibili dallo stato iniziale;
+- Si assume che lo stato iniziale (unico) non abbia archi entranti;
+- Si assume che ogni stato sia finale, oppure permetta di raggiungere uno stato finale.
+
+---
+
+"bwt_*.txt"
+
+Prima riga: numero degli stati (n), corrispondente a lunghezza di OUT, IN e FINAL.
+Successive n righe: numero di elementi della componente i-esima del vettore OUT, e successivamente gli elementi, separati da spazi. Ciascun elemento è nella forma intero e carattere separati da una virgola.
+Successive n righe: numero di elementi della componente i-esima del vettore IN, e successivamente gli elementi, separati da spazi.
+Successive n righe: elemento nella componente i-esima del vettore FINAL.
+
+Alla fine di ogni riga del file deve essere inserito uno spazio per la corretta esecuzione del programma.
+
+---
