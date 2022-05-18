@@ -1,5 +1,5 @@
-# Computational Laboratory Project
-Computational Laboratory exam project in Data Compression at University of Pisa - Language: Italian. <br>
+# Computational Lab Project
+Computational Lab exam project in Data Compression at University of Pisa - Language: Italian. <br>
 Title (Italian): <em>Trasformata di Burrows-Wheeler di automi a stati finiti</em>. <br>
 Title (English): <em>Burrows-Wheeler transform of finite automata</em>.
 
